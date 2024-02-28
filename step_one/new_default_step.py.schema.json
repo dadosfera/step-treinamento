@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "New Default Step",
+  "description": "Schema validation for New Deafult Step",
+  "type": "object",
+  "properties": {
+    "param_one": {
+      "type": "string",
+      "description": "Parameto um, exemplo"
+    },
+    "param_two": {
+      "type": "string",
+      "description": "Parametro dois, exemplo"
+    }
+  },
+  "required": ["param_one", "param_two"]
+}
