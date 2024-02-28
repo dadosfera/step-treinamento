@@ -6,8 +6,8 @@
       "elements": [
         {
           "type": "Control",
-          "scope": "#/properties/param_one",
-          "label": "Example: Param_one"
+          "scope": "#/properties/destination",
+          "label": "Nome do arquivo de saida"
         }
       ]
     },
@@ -16,8 +16,8 @@
       "elements": [
         {
           "type": "Control",
-          "scope": "#/properties/param_two",
-          "label": "Example: Param_two"
+          "scope": "#/properties/incoming_varible_name",
+          "label": "Nome da variavel de saida do step anterior"
         }
       ]
     }

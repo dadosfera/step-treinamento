@@ -4,14 +4,18 @@
   "description": "Schema validation for New Deafult Step",
   "type": "object",
   "properties": {
-    "param_one": {
+    "selected_columns": {
       "type": "string",
-      "description": "Parameto um, exemplo"
+      "description": "coluna1,coluna2,coluna3"
     },
-    "param_two": {
+    "incoming_varibale_name": {
       "type": "string",
-      "description": "Parametro dois, exemplo"
+      "description": "nome_da_variavel_de_saida_do_step_anterior"
+    },
+    "output_name": {
+      "type": "string",
+      "description": "nome_da_variavel_que_preferir"
     }
   },
-  "required": ["param_one", "param_two"]
+  "required": ["selected_columns", "incoming_varibale_name", "output_name"]
 }
