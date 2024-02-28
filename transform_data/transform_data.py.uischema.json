@@ -6,8 +6,8 @@
       "elements": [
         {
           "type": "Control",
-          "scope": "#/properties/param_one",
-          "label": "Example: Param_one"
+          "scope": "#/properties/selected_columns",
+          "label": "Nome das colunas selecionadas separado por virgulas"
         }
       ]
     },
@@ -16,8 +16,18 @@
       "elements": [
         {
           "type": "Control",
-          "scope": "#/properties/param_two",
-          "label": "Example: Param_two"
+          "scope": "#/properties/incoming_varible_name",
+          "label": "Nome da variavel de saida do step anterior"
+        }
+      ]
+    },
+    {
+      "type": "HorizontalLayout",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/output_name",
+          "label": "Nome da variável de Saída"
         }
       ]
     }

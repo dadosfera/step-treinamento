@@ -4,14 +4,14 @@
   "description": "Schema validation for New Deafult Step",
   "type": "object",
   "properties": {
-    "param_one": {
+    "destination": {
       "type": "string",
-      "description": "Parameto um, exemplo"
+      "description": "arquivo_saida.csv"
     },
-    "param_two": {
+    "incoming_varibale_name": {
       "type": "string",
-      "description": "Parametro dois, exemplo"
+      "description": "nome_da_variavel_de_saida_do_step_anterior"
     }
   },
-  "required": ["param_one", "param_two"]
+  "required": ["destination", "incoming_varibale_name"]
 }

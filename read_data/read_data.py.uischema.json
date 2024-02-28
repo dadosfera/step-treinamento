@@ -6,8 +6,8 @@
       "elements": [
         {
           "type": "Control",
-          "scope": "#/properties/param_one",
-          "label": "Example: Param_one"
+          "scope": "#/properties/source_file_path",
+          "label": "Caminho para o arquivo CSV"
         }
       ]
     },
@@ -16,8 +16,8 @@
       "elements": [
         {
           "type": "Control",
-          "scope": "#/properties/param_two",
-          "label": "Example: Param_two"
+          "scope": "#/properties/output_name",
+          "label": "Nome da variável de Saída"
         }
       ]
     }
