@@ -8,7 +8,7 @@
       "type": "string",
       "description": "coluna1,coluna2,coluna3"
     },
-    "incoming_varibale_name": {
+    "incoming_variable_name": {
       "type": "string",
       "description": "nome_da_variavel_de_saida_do_step_anterior"
     },
@@ -17,5 +17,5 @@
       "description": "nome_da_variavel_que_preferir"
     }
   },
-  "required": ["selected_columns", "incoming_varibale_name", "output_name"]
+  "required": ["selected_columns", "incoming_variable_name", "output_name"]
 }

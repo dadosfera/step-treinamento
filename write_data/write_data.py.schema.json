@@ -8,10 +8,10 @@
       "type": "string",
       "description": "arquivo_saida.csv"
     },
-    "incoming_varibale_name": {
+    "incoming_variable_name": {
       "type": "string",
       "description": "nome_da_variavel_de_saida_do_step_anterior"
     }
   },
-  "required": ["destination", "incoming_varibale_name"]
+  "required": ["destination", "incoming_variable_name"]
 }

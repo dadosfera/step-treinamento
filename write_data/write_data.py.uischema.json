@@ -16,7 +16,7 @@
       "elements": [
         {
           "type": "Control",
-          "scope": "#/properties/incoming_varible_name",
+          "scope": "#/properties/incoming_variable_name",
           "label": "Nome da variavel de saida do step anterior"
         }
       ]
